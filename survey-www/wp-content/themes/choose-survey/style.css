@@ -1,0 +1,71 @@
+
+
+/*
+Theme Name: Choose-Survey Afterlight child
+Theme URI: http://choose-survey.royalholloway.ac.uk
+Description: Choose-Survey theme, based on Afterlight
+Author: Jamie Alnasir
+Author URI: http://jalnasir.cs.rhul.ac.uk
+Template: afterlight-wpcom
+Version: 1.0.0
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready, responsive-layout, infinite-scroll, post-slider, design, food, journal, magazine, news, photography, portfolio, clean, contemporary, dark, elegant, modern, professional, sophisticated
+Text Domain: afterlight-child
+*/
+
+.choose_table1 {
+    background-color:rgba(52,89,219,0.2); // #3459DB
+}
+
+.choose_table2 {
+    background-color:rgba(218,237,218,0.2);
+}
+
+table, td, th {
+   border:none;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 4px 20px 4px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ed701d;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+#textarea { 
+ width: 100%;
+}
+
+body
+{
+color: black;
+}
+
+a, a:visited {
+color: #0678BE;
+text-decoration: none;
+}
+
+a:hover {
+color: #ED701D;
+text-decoration: underline;
+}
+
+@import url("../afterlight-wpcom/style.css");
+

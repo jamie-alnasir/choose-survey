@@ -1,0 +1,274 @@
+body{
+font-family: "Tahoma", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #A93701;
+}
+
+/* visited link */
+a:visited {
+    color: #A93701;
+}
+
+/* mouse over link */
+a:hover {
+    color: #AA0000;
+}
+
+/* selected link */
+a:active {
+    color: #A93701;
+}
+
+
+
+
+
+
+
+#sddm
+{	margin: 0;
+	padding: 0;
+	z-index: 30}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial}
+
+#sddm li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 150px;
+	background: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none}
+
+#sddm li a:hover
+{	background: #EB641E}
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EB641E;
+	border: 1px solid #5970B2}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #000000;
+		color: #FFFFFF;
+		font: 11px arial}
+
+	#sddm div a:hover
+	{	background: #EB641E;
+		color: #FFFFFF}
+
+
+
+
+
+.css-slideshow{
+  position: relative;
+  vertical-align:text-top;
+  max-width: 112px;
+  height: 135px;
+  
+}
+.css-slideshow figure{
+  margin: 0;
+  max-width: 112px;
+  height: 135px;
+  background: #000;
+  position: absolute;
+  vertical-align:text-top;
+}
+
+.css-slideshow img{
+   vertical-align:text-top;
+}
+
+
+.css-slideshow-attr{
+  max-width: 150px;
+  text-align: right;
+  font-size: .7em;
+  font-style: italic;
+  margin:0 auto;
+}
+.css-slideshow-attr a{
+  color: #666;
+}
+.css-slideshow figure{
+  opacity:0;
+}
+figure:nth-child(1) {
+  animation: xfade 48s 42s infinite;
+  -webkit-animation: xfade 48s 42s infinite;
+  -moz-animation: xfade 48s 42s infinite;
+  -o-animation: xfade 48s 42s infinite;
+  -ms-animation: xfade 48s 42s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 48s 36s infinite;
+  -webkit-animation: xfade 48s 36s infinite;
+  -moz-animation: xfade 48s 36s infinite;
+  -o-animation: xfade 48s 36s infinite;
+  -ms-animation: xfade 48s 36s infinite;
+}
+figure:nth-child(3) {
+  animation: xfade 48s 30s infinite;
+  -webkit-animation: xfade 48s 30s infinite;
+  -moz-animation: xfade 48s 30s infinite;
+  -o-animation: xfade 48s 30s infinite;
+  -ms-animation: xfade 48s 30s infinite;
+}
+figure:nth-child(4) {
+  animation: xfade 48s 24s infinite;
+  -webkit-animation: xfade 48s 24s infinite;
+  -moz-animation: xfade 48s 24s infinite;
+  -o-animation: xfade 48s 24s infinite;
+  -ms-animation: xfade 48s 24s infinite;
+}
+figure:nth-child(5) {
+  animation: xfade 48s 18s infinite;
+  -webkit-animation: xfade 48s 18s infinite;
+  -moz-animation: xfade 48s 18s infinite;
+  -o-animation: xfade 48s 18s infinite;
+  -ms-animation: xfade 48s 18s infinite;
+}
+figure:nth-child(6) {
+  animation: xfade 48s 12s infinite;
+  -webkit-animation: xfade 48s 12s infinite;
+  -moz-animation: xfade 48s 12s infinite;
+  -o-animation: xfade 48s 12s infinite;
+  -ms-animation: xfade 48s 12s infinite;
+}
+figure:nth-child(7) {
+  animation: xfade 48s 6s infinite;
+  -webkit-animation: xfade 48s 6s infinite;
+  -moz-animation: xfade 48s 6s infinite;
+  -o-animation: xfade 48s 6s infinite;
+  -ms-animation: xfade 48s 6s infinite;
+}
+figure:nth-child(8) {
+  animation: xfade 48s 1s infinite;
+  -webkit-animation: xfade 48s 1s infinite;
+  -moz-animation: xfade 48s 1s infinite;
+  -o-animation: xfade 48s 1s infinite;
+  -ms-animation: xfade 48s 1s infinite;
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  14.67% {
+    opacity:1;
+  }
+  16.67%{
+    opacity: 0;
+  }
+  98% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  14.67% {
+    opacity:1;
+  }
+  16.67%{
+    opacity: 0;
+  }
+  98% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+@-moz-keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  14.67% {
+    opacity:1;
+  }
+  16.67%{
+    opacity: 0;
+  }
+  98% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+@-o-keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  14.67% {
+    opacity:1;
+  }
+  16.67%{
+    opacity: 0;
+  }
+  98% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+@-ms-keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  14.67% {
+    opacity:1;
+  }
+  16.67%{
+    opacity: 0;
+  }
+  98% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+
+
+

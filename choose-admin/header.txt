@@ -1,0 +1,25 @@
+
+<link rel="stylesheet" type="text/css" href="./shared/site.css">
+
+<img src="https://choose-survey.royalholloway.ac.uk/graphics/AdminBanner.jpg">
+<h3>RHUL Choose-Survey - Administration System</h3>
+
+<hr size=1>
+
+<table width="100%" bgcolor="#444444">
+<tr><td>
+<!-- The Admin site menu system -->
+<font size="1">
+<ul id="sddm">
+    <li><a href="/choose-admin/">Admin. Home</a></li>
+    <li><a href="/choose-admin/new-msg.php">Post News Item</a></li>    
+    <li><a href="/choose-admin/sync.php">Do SurveyMonkey Sync</a></li>
+    <li><a href="http://choose-survey.royalholloway.ac.uk/" target="_PseudoNewFrame">Site Home</a></li>
+</ul>
+<div style="clear:both"></div>
+</font>
+</td></td>
+</table>
+
+<hr size=1>
+<br>

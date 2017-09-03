@@ -1,0 +1,4 @@
+AuthUserFile /srv/www/survey/choose-admin/.htpasswd
+AuthName "Restricted Area - Authentication Credentials required!"
+AuthType Basic
+Require valid-user
