@@ -11,7 +11,7 @@ Choose Survey Project:
 The Choose-Survey project is presented at the project website:
 https://www.royalholloway.ac.uk/economics/choosesurvey/choosesurvey.aspx
 
-An abstract of the software system can be found on the Royal Holloway academic server:
+An abstract for the software system can be found on the Royal Holloway academic server:
 https://pure.royalholloway.ac.uk/portal/en/publications/choosesurvey(fe679290-fb48-436b-ab59-1de49b1caa8c).html
 
 Technical implementation of the project is discussed here:
