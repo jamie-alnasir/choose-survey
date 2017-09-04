@@ -33,8 +33,13 @@ is necessary, as is building/compiling of the Android/iOS client apps.
 
 Folder structure:
 
+[Server-side code]
 ./survey-www/wp-content/themes/choose-survey/*		Main Wordpress driven system for user login, displaying surveys (Wordpress/PHP/MySQL)
-./choose-admin/*		Choose-Survey administration panel (PHP/MySQL)
-./RHUL_Survey_SAS/*		Choose-Survey Synchronisation and Voucher system (Python/MySQL)
-./survey-www/push/*		Push notifications system (PHP/MySQL/GCM/Firebase)
+./choose-admin/*			Choose-Survey administration panel (PHP/MySQL)
+./RHUL_Survey_SAS/*			Choose-Survey Synchronisation and Voucher system (Python/MySQL)
+./survey-www/push/*			Push notifications system (PHP/MySQL/GCM/Firebase)
+
+[Client-side code]
+./Android.client.app/*		Android GCM Push-notifications enabled Webview "Thin" Client
+./iOS.client.app/*			iOS GCM/Firebase Push-notifications enabled Webview "Thin" Client
 
