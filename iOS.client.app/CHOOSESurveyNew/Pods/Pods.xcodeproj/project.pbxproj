@@ -1,0 +1,965 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F30B51886D01D8649E9C86FC39B6C20 /* Pods-CHOOSESurveyApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A99D35E9991296F9897F54B804D5B7 /* Pods-CHOOSESurveyApp-dummy.m */; };
+		3FBBF35C76F4BC8F10828A70F9D224B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4B92D5E0C0000360DA39F5B4A2CE7265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		682043AB41D696792BB2C030F730A5EC /* Pods-CHOOSE @ Survey-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B736706D520D281131D55AB486529E8 /* Pods-CHOOSE @ Survey-dummy.m */; };
+		705579B7207024B8BDE8A894B2308B78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		95BC517177B39DCB2FA164A92DBA28BA /* Pods-CHOOSE @ SurveyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A5142A48A5B10796AA6663EBCE8F29 /* Pods-CHOOSE @ SurveyTests-dummy.m */; };
+		96217B1EFC84953B0B38B7698FA38020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9F25D87A0F21716F45BAB30858ECFEEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E7D71BBEC76283F108AC3FF807483503 /* Pods-CHOOSESurveyAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFE272EE582E3965615BE3B26816969 /* Pods-CHOOSESurveyAppTests-dummy.m */; };
+		FB8F6F7C31760D231B1542084DF2976F /* Pods-CHOOSE @ SurveyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A00F8E8F6844000E11862B854361DAD3 /* Pods-CHOOSE @ SurveyUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		014C7411697FE41E532EABA22CACAF2E /* Pods-CHOOSE @ Survey-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHOOSE @ Survey-acknowledgements.markdown"; sourceTree = "<group>"; };
+		067FCD5DECCEAE9BDD0BB2E586674D85 /* GGLContext+CloudMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GGLContext+CloudMessaging.h"; path = "Headers/GGLCloudMessaging/Public/GGLContext+CloudMessaging.h"; sourceTree = "<group>"; };
+		083BBBD479A2159F6616C52E6B2768FF /* GCMReceiverDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCMReceiverDelegate.h; path = Headers/Public/GCMReceiverDelegate.h; sourceTree = "<group>"; };
+		09603DD06A0B408AE1779C897890D8F0 /* Pods-CHOOSESurveyAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOOSESurveyAppTests-resources.sh"; sourceTree = "<group>"; };
+		0B736706D520D281131D55AB486529E8 /* Pods-CHOOSE @ Survey-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHOOSE @ Survey-dummy.m"; sourceTree = "<group>"; };
+		0EDCBF944D5E031F728E8C65BD575D8F /* Pods-CHOOSE @ SurveyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHOOSE @ SurveyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1268C2523D5F0265667124BB48C45125 /* libGcmLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGcmLib.a; path = Libraries/libGcmLib.a; sourceTree = "<group>"; };
+		16E675C3BFB46B1356F55087BDA18777 /* Pods-CHOOSE @ SurveyTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOOSE @ SurveyTests-resources.sh"; sourceTree = "<group>"; };
+		21A5142A48A5B10796AA6663EBCE8F29 /* Pods-CHOOSE @ SurveyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHOOSE @ SurveyTests-dummy.m"; sourceTree = "<group>"; };
+		2B90410E02EE1C298EDF48E07397C7C8 /* Core-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Core-Module.h"; path = "Headers/ModuleHeaders/Core-Module.h"; sourceTree = "<group>"; };
+		2DEF13CD4EB1C4EF642803CA926265F1 /* Pods-CHOOSE @ SurveyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHOOSE @ SurveyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E040150C0F1F8EAA11CDE534EA09006 /* GGLInstanceIDHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDHeaders.h; path = Headers/Public/GGLInstanceIDHeaders.h; sourceTree = "<group>"; };
+		3222AB20AA6B93360B6380B9C7937F3C /* GGLInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLInstanceID.h; path = Headers/Public/GGLInstanceID.h; sourceTree = "<group>"; };
+		35A99D35E9991296F9897F54B804D5B7 /* Pods-CHOOSESurveyApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHOOSESurveyApp-dummy.m"; sourceTree = "<group>"; };
+		39BD0F887E1F6AD5514C07AE37F6D0BE /* GGLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLContext.h; path = Headers/GGLCore/Public/GGLContext.h; sourceTree = "<group>"; };
+		3FADFD6519EF51A9AB652245B3114EC3 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		41B2A63ED6CB6A2865B1193C8643EFEA /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		47B4CE72008815A32475E2038C7AE17D /* Pods-CHOOSE @ SurveyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOOSE @ SurveyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		48DB42E8EE0CC0FA4849E3DDA0A91647 /* Analytics-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Analytics-Module.h"; path = "Headers/ModuleHeaders/Analytics-Module.h"; sourceTree = "<group>"; };
+		48E5F486F52E5FE9CDD7D0EF07006E7D /* Pods-CHOOSE @ Survey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOOSE @ Survey.release.xcconfig"; sourceTree = "<group>"; };
+		4A9CFEF7F75F4CDB39FCFD9620224D69 /* Pods-CHOOSE @ Survey-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHOOSE @ Survey-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F28B6517EB0CB51A5FD5F63153E09FB /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		566455AA860C9F19D625FBB74D64BB18 /* GGLErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLErrorCode.h; path = Headers/GGLCore/Public/GGLErrorCode.h; sourceTree = "<group>"; };
+		598406CC0A26EB6FD8A1246C3831A662 /* CloudMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudMessaging.h; path = Headers/GGLCloudMessaging/Public/CloudMessaging.h; sourceTree = "<group>"; };
+		5A36071922C040C267985E5745E86CB1 /* Pods-CHOOSE @ SurveyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOOSE @ SurveyTests.release.xcconfig"; sourceTree = "<group>"; };
+		5FD51FC45CA3AE65C4610DD2E8B268C0 /* Pods-CHOOSESurveyApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHOOSESurveyApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63989221642A06B1E7CA3BFE3CD3FC5B /* Pods-CHOOSE @ Survey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOOSE @ Survey.debug.xcconfig"; sourceTree = "<group>"; };
+		6B978BF14A0643ABDF1F93EE546892F4 /* Pods-CHOOSESurveyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOOSESurveyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6FCFB254F726EC8D00C3CCE54C5E9176 /* GCMService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCMService.h; path = Headers/Public/GCMService.h; sourceTree = "<group>"; };
+		710BB553BFD64BF809D00661AE7B4DAA /* GGLConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLConfiguration.h; path = Headers/GGLCore/Public/GGLConfiguration.h; sourceTree = "<group>"; };
+		7154A8FB8D5572DE2AAA19C4C824AB27 /* libPods-CHOOSE @ SurveyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHOOSE @ SurveyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7159FF407DA9078CC89757DD4E408FD2 /* Pods-CHOOSESurveyApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHOOSESurveyApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		71F06F6B40F0B848478105EBFF1288ED /* libGGLInstanceIDLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLInstanceIDLib.a; path = Libraries/libGGLInstanceIDLib.a; sourceTree = "<group>"; };
+		7A62B334F7F64A4C092FB1036FF00D8B /* SignIn-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SignIn-Module.h"; path = "Headers/ModuleHeaders/SignIn-Module.h"; sourceTree = "<group>"; };
+		7AACBAB75252A3163F9564A7BC7D25EE /* Pods-CHOOSE @ SurveyUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOOSE @ SurveyUITests-resources.sh"; sourceTree = "<group>"; };
+		7B69D5539B1F2725E8341345EEFEA80D /* Pods-CHOOSESurveyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOOSESurveyApp.release.xcconfig"; sourceTree = "<group>"; };
+		803F3C303112451A31720FD9C9869CE5 /* Pods-CHOOSESurveyAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOOSESurveyAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		878935605EEDA90C147F85E95F66E18B /* Pods-CHOOSE @ SurveyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHOOSE @ SurveyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F462552D50BD12774BDEBDB94B0B201 /* libPods-CHOOSE @ Survey.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHOOSE @ Survey.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7DED2369F720811D2651EA1154E2EE /* Pods-CHOOSESurveyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOOSESurveyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B1780DD523528E88B173F119FF368B8 /* GCMConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCMConfig.h; path = Headers/Public/GCMConfig.h; sourceTree = "<group>"; };
+		9FA2138C5C6FF4BFF52B850B9ACEEE69 /* libGGLCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLCore.a; path = Libraries/libGGLCore.a; sourceTree = "<group>"; };
+		A00F8E8F6844000E11862B854361DAD3 /* Pods-CHOOSE @ SurveyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHOOSE @ SurveyUITests-dummy.m"; sourceTree = "<group>"; };
+		A0B7600415DAABD07134F387E04A0584 /* Pods-CHOOSE @ Survey-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOOSE @ Survey-resources.sh"; sourceTree = "<group>"; };
+		A52D0850A8B97183BD29DC30EDF2D20E /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleIPhoneUtilities.framework; path = Frameworks/GoogleIPhoneUtilities.framework; sourceTree = "<group>"; };
+		A70E4970903C81A9B4777CFF6AEB5F58 /* CloudMessaging-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CloudMessaging-Module.h"; path = "Headers/ModuleHeaders/CloudMessaging-Module.h"; sourceTree = "<group>"; };
+		B1834AD14CB05AA5B3EF959E80DF9FFF /* GoogleCloudMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleCloudMessaging.h; path = Headers/Public/GoogleCloudMessaging.h; sourceTree = "<group>"; };
+		B90EA9E190B00856484B38E765D8CC15 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		B99B9557EA3E71535AB7940D92900501 /* Pods-CHOOSESurveyAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHOOSESurveyAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BAFE272EE582E3965615BE3B26816969 /* Pods-CHOOSESurveyAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHOOSESurveyAppTests-dummy.m"; sourceTree = "<group>"; };
+		BDF96A1BA551CC1B50AAAB11EEC207F9 /* libGGLCloudMessaging.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLCloudMessaging.a; path = Libraries/libGGLCloudMessaging.a; sourceTree = "<group>"; };
+		BF3B1AADC63D03DE761A7BD9F2A4096F /* libPods-CHOOSE @ SurveyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHOOSE @ SurveyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF263DDF72F153ED9B5875BEA934ACB /* GGLInstanceIDConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDConfig.h; path = Headers/Public/GGLInstanceIDConfig.h; sourceTree = "<group>"; };
+		C2EE342D35842FA5A5B15F5EE3A794AA /* GMRConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMRConfiguration.h; path = Headers/GGLCore/Public/GMRConfiguration.h; sourceTree = "<group>"; };
+		C51FC204373DBD7E7E90EE5618409176 /* AppInvite-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AppInvite-Module.h"; path = "Headers/ModuleHeaders/AppInvite-Module.h"; sourceTree = "<group>"; };
+		C555AEBC7801970B1F12676C3CA0E9F2 /* GGLInstanceIDDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDDelegate.h; path = Headers/Public/GGLInstanceIDDelegate.h; sourceTree = "<group>"; };
+		C764B82733C5322670ED88F5A5CF9B5D /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Core.h; path = Headers/GGLCore/Public/Core.h; sourceTree = "<group>"; };
+		CC565437C3B7BD4462A394F512D80F32 /* Pods-CHOOSE @ Survey-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOOSE @ Survey-frameworks.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0FE78492D93A8FA9C37FC93A510677A /* Pods-CHOOSESurveyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOOSESurveyAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2EA190CA6B89E54020C31C4624A79D0 /* Pods-CHOOSESurveyApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOOSESurveyApp-frameworks.sh"; sourceTree = "<group>"; };
+		D37CCEE8F9C4B13BFAC3A1C4A647A6CA /* Pods-CHOOSE @ SurveyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOOSE @ SurveyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D63BC07FB7271566E63DE0BF04553901 /* libPods-CHOOSESurveyAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHOOSESurveyAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB22E0A405785453559766B2E98C295C /* libPods-CHOOSESurveyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHOOSESurveyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB857C712EE8795BC6CB0BA660EA6D77 /* AdMob-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AdMob-Module.h"; path = "Headers/ModuleHeaders/AdMob-Module.h"; sourceTree = "<group>"; };
+		E1EFF10C7DC4F21E8AED158D19950F1B /* Pods-CHOOSE @ SurveyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHOOSE @ SurveyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2C9437DE6524F6A0FB18756BCF9BA0F /* Pods-CHOOSESurveyApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOOSESurveyApp-resources.sh"; sourceTree = "<group>"; };
+		E73942B2AEBD8FDB724D6863E39F5100 /* GCMPubSub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCMPubSub.h; path = Headers/Public/GCMPubSub.h; sourceTree = "<group>"; };
+		EC3773E24F19604B5FC1A739234D4472 /* Pods-CHOOSE @ SurveyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOOSE @ SurveyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F5974F8F532516B1DFAC6B675A31D0D5 /* Pods-CHOOSE @ SurveyTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOOSE @ SurveyTests-frameworks.sh"; sourceTree = "<group>"; };
+		FC23BFC8BB87DD2EFDC2997FD21F862F /* Pods-CHOOSESurveyAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHOOSESurveyAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF0F339FD4DF0ED437E057E256A3E4AF /* Pods-CHOOSE @ SurveyUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOOSE @ SurveyUITests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40EF2C421A70CEBACC302018816646D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F25D87A0F21716F45BAB30858ECFEEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DE1AC3F5CC9A086D57C817AE3FAF637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96217B1EFC84953B0B38B7698FA38020 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AC91E832E49BD7EBF6794823615E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B92D5E0C0000360DA39F5B4A2CE7265 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C890B3560112269F73BB014EA41ABB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBBF35C76F4BC8F10828A70F9D224B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4750830B295D942D4B33D94CFE781D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705579B7207024B8BDE8A894B2308B78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BFE0FBB054731E6DBB367D75F217FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD8A5DAEDFADE0ABAB52B992F1EDD91F /* GGLInstanceID */,
+				E95E3B136B105B9F1DA4E4AD934092CD /* Google */,
+				84B1E3C11A6C405108AEE4E90F25B8E5 /* GoogleCloudMessaging */,
+				BF7EC5F5CECC3CA3738CC062E6BA5889 /* GoogleInterchangeUtilities */,
+				1F37E418EDB10C583A4B1106100BEDAB /* GoogleIPhoneUtilities */,
+				7BAFD051F48FAD29C626E8F0EE4F658C /* GoogleNetworkingUtilities */,
+				1CE11B0D9FCFB7E66DB9EF26DB8B70A9 /* GoogleSymbolUtilities */,
+				850ED21BBE67973E2292B24174845AC4 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1CE11B0D9FCFB7E66DB9EF26DB8B70A9 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				DEDAA9AB184B93B5385E69800662EE66 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		1F37E418EDB10C583A4B1106100BEDAB /* GoogleIPhoneUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				7D0B78B1F2272CE9A9B4EA15A9C6B655 /* Frameworks */,
+			);
+			path = GoogleIPhoneUtilities;
+			sourceTree = "<group>";
+		};
+		261D49DB7568CD2E493C52CC2BFB69C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71F06F6B40F0B848478105EBFF1288ED /* libGGLInstanceIDLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A8C22EA49D9DDDEA769D3C4CA1DE850 /* Pods-CHOOSE @ SurveyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DEF13CD4EB1C4EF642803CA926265F1 /* Pods-CHOOSE @ SurveyTests-acknowledgements.markdown */,
+				E1EFF10C7DC4F21E8AED158D19950F1B /* Pods-CHOOSE @ SurveyTests-acknowledgements.plist */,
+				21A5142A48A5B10796AA6663EBCE8F29 /* Pods-CHOOSE @ SurveyTests-dummy.m */,
+				F5974F8F532516B1DFAC6B675A31D0D5 /* Pods-CHOOSE @ SurveyTests-frameworks.sh */,
+				16E675C3BFB46B1356F55087BDA18777 /* Pods-CHOOSE @ SurveyTests-resources.sh */,
+				D37CCEE8F9C4B13BFAC3A1C4A647A6CA /* Pods-CHOOSE @ SurveyTests.debug.xcconfig */,
+				5A36071922C040C267985E5745E86CB1 /* Pods-CHOOSE @ SurveyTests.release.xcconfig */,
+			);
+			name = "Pods-CHOOSE @ SurveyTests";
+			path = "Target Support Files/Pods-CHOOSE @ SurveyTests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4B0034C2F5D315AAF9E687127A5EB406 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDF96A1BA551CC1B50AAAB11EEC207F9 /* libGGLCloudMessaging.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		612288B22544D77F8862D5076EC6F277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F462552D50BD12774BDEBDB94B0B201 /* libPods-CHOOSE @ Survey.a */,
+				7154A8FB8D5572DE2AAA19C4C824AB27 /* libPods-CHOOSE @ SurveyTests.a */,
+				BF3B1AADC63D03DE761A7BD9F2A4096F /* libPods-CHOOSE @ SurveyUITests.a */,
+				DB22E0A405785453559766B2E98C295C /* libPods-CHOOSESurveyApp.a */,
+				D63BC07FB7271566E63DE0BF04553901 /* libPods-CHOOSESurveyAppTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6554B1BCD603E25B738648B051107542 /* Pods-CHOOSE @ Survey */ = {
+			isa = PBXGroup;
+			children = (
+				014C7411697FE41E532EABA22CACAF2E /* Pods-CHOOSE @ Survey-acknowledgements.markdown */,
+				4A9CFEF7F75F4CDB39FCFD9620224D69 /* Pods-CHOOSE @ Survey-acknowledgements.plist */,
+				0B736706D520D281131D55AB486529E8 /* Pods-CHOOSE @ Survey-dummy.m */,
+				CC565437C3B7BD4462A394F512D80F32 /* Pods-CHOOSE @ Survey-frameworks.sh */,
+				A0B7600415DAABD07134F387E04A0584 /* Pods-CHOOSE @ Survey-resources.sh */,
+				63989221642A06B1E7CA3BFE3CD3FC5B /* Pods-CHOOSE @ Survey.debug.xcconfig */,
+				48E5F486F52E5FE9CDD7D0EF07006E7D /* Pods-CHOOSE @ Survey.release.xcconfig */,
+			);
+			name = "Pods-CHOOSE @ Survey";
+			path = "Target Support Files/Pods-CHOOSE @ Survey";
+			sourceTree = "<group>";
+		};
+		6A18204F933E1DC90D1787A565A4FD3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FA2138C5C6FF4BFF52B850B9ACEEE69 /* libGGLCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BE7DE3DE225B563A2A5E475B735D88F /* Pods-CHOOSESurveyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC23BFC8BB87DD2EFDC2997FD21F862F /* Pods-CHOOSESurveyAppTests-acknowledgements.markdown */,
+				B99B9557EA3E71535AB7940D92900501 /* Pods-CHOOSESurveyAppTests-acknowledgements.plist */,
+				BAFE272EE582E3965615BE3B26816969 /* Pods-CHOOSESurveyAppTests-dummy.m */,
+				803F3C303112451A31720FD9C9869CE5 /* Pods-CHOOSESurveyAppTests-frameworks.sh */,
+				09603DD06A0B408AE1779C897890D8F0 /* Pods-CHOOSESurveyAppTests-resources.sh */,
+				8F7DED2369F720811D2651EA1154E2EE /* Pods-CHOOSESurveyAppTests.debug.xcconfig */,
+				D0FE78492D93A8FA9C37FC93A510677A /* Pods-CHOOSESurveyAppTests.release.xcconfig */,
+			);
+			name = "Pods-CHOOSESurveyAppTests";
+			path = "Target Support Files/Pods-CHOOSESurveyAppTests";
+			sourceTree = "<group>";
+		};
+		7354E0BF5C7172065D844FF6C2A9E7FF /* Pods-CHOOSESurveyApp */ = {
+			isa = PBXGroup;
+			children = (
+				5FD51FC45CA3AE65C4610DD2E8B268C0 /* Pods-CHOOSESurveyApp-acknowledgements.markdown */,
+				7159FF407DA9078CC89757DD4E408FD2 /* Pods-CHOOSESurveyApp-acknowledgements.plist */,
+				35A99D35E9991296F9897F54B804D5B7 /* Pods-CHOOSESurveyApp-dummy.m */,
+				D2EA190CA6B89E54020C31C4624A79D0 /* Pods-CHOOSESurveyApp-frameworks.sh */,
+				E2C9437DE6524F6A0FB18756BCF9BA0F /* Pods-CHOOSESurveyApp-resources.sh */,
+				6B978BF14A0643ABDF1F93EE546892F4 /* Pods-CHOOSESurveyApp.debug.xcconfig */,
+				7B69D5539B1F2725E8341345EEFEA80D /* Pods-CHOOSESurveyApp.release.xcconfig */,
+			);
+			name = "Pods-CHOOSESurveyApp";
+			path = "Target Support Files/Pods-CHOOSESurveyApp";
+			sourceTree = "<group>";
+		};
+		7BAFD051F48FAD29C626E8F0EE4F658C /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				FEEBDF227DF18BEB08A7B0FE3F30DEA5 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		7D0B78B1F2272CE9A9B4EA15A9C6B655 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A52D0850A8B97183BD29DC30EDF2D20E /* GoogleIPhoneUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				04BFE0FBB054731E6DBB367D75F217FD /* Pods */,
+				612288B22544D77F8862D5076EC6F277 /* Products */,
+				AF13E617205D564B50B265C86948B080 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E1777C602963F9622E47349566D1FF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FADFD6519EF51A9AB652245B3114EC3 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84B1E3C11A6C405108AEE4E90F25B8E5 /* GoogleCloudMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				9B1780DD523528E88B173F119FF368B8 /* GCMConfig.h */,
+				E73942B2AEBD8FDB724D6863E39F5100 /* GCMPubSub.h */,
+				083BBBD479A2159F6616C52E6B2768FF /* GCMReceiverDelegate.h */,
+				6FCFB254F726EC8D00C3CCE54C5E9176 /* GCMService.h */,
+				B1834AD14CB05AA5B3EF959E80DF9FFF /* GoogleCloudMessaging.h */,
+				FAB2DEA807EC9D8CE89F4AF12963E753 /* Frameworks */,
+			);
+			path = GoogleCloudMessaging;
+			sourceTree = "<group>";
+		};
+		850ED21BBE67973E2292B24174845AC4 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				7E1777C602963F9622E47349566D1FF6 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		8F49DF256F8DA299369A124252F3F460 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DB857C712EE8795BC6CB0BA660EA6D77 /* AdMob-Module.h */,
+				48DB42E8EE0CC0FA4849E3DDA0A91647 /* Analytics-Module.h */,
+				C51FC204373DBD7E7E90EE5618409176 /* AppInvite-Module.h */,
+				A70E4970903C81A9B4777CFF6AEB5F58 /* CloudMessaging-Module.h */,
+				C764B82733C5322670ED88F5A5CF9B5D /* Core.h */,
+				2B90410E02EE1C298EDF48E07397C7C8 /* Core-Module.h */,
+				710BB553BFD64BF809D00661AE7B4DAA /* GGLConfiguration.h */,
+				39BD0F887E1F6AD5514C07AE37F6D0BE /* GGLContext.h */,
+				566455AA860C9F19D625FBB74D64BB18 /* GGLErrorCode.h */,
+				C2EE342D35842FA5A5B15F5EE3A794AA /* GMRConfiguration.h */,
+				7A62B334F7F64A4C092FB1036FF00D8B /* SignIn-Module.h */,
+				6A18204F933E1DC90D1787A565A4FD3F /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		AD8A5DAEDFADE0ABAB52B992F1EDD91F /* GGLInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				3222AB20AA6B93360B6380B9C7937F3C /* GGLInstanceID.h */,
+				BFF263DDF72F153ED9B5875BEA934ACB /* GGLInstanceIDConfig.h */,
+				C555AEBC7801970B1F12676C3CA0E9F2 /* GGLInstanceIDDelegate.h */,
+				2E040150C0F1F8EAA11CDE534EA09006 /* GGLInstanceIDHeaders.h */,
+				261D49DB7568CD2E493C52CC2BFB69C2 /* Frameworks */,
+			);
+			path = GGLInstanceID;
+			sourceTree = "<group>";
+		};
+		AF13E617205D564B50B265C86948B080 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6554B1BCD603E25B738648B051107542 /* Pods-CHOOSE @ Survey */,
+				2A8C22EA49D9DDDEA769D3C4CA1DE850 /* Pods-CHOOSE @ SurveyTests */,
+				E9275FF5FCF897FFD48DBEAE512686BC /* Pods-CHOOSE @ SurveyUITests */,
+				7354E0BF5C7172065D844FF6C2A9E7FF /* Pods-CHOOSESurveyApp */,
+				6BE7DE3DE225B563A2A5E475B735D88F /* Pods-CHOOSESurveyAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B8D4E11B6C5388371CE3CCC8CCB69D40 /* CloudMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				598406CC0A26EB6FD8A1246C3831A662 /* CloudMessaging.h */,
+				067FCD5DECCEAE9BDD0BB2E586674D85 /* GGLContext+CloudMessaging.h */,
+				4B0034C2F5D315AAF9E687127A5EB406 /* Frameworks */,
+			);
+			name = CloudMessaging;
+			sourceTree = "<group>";
+		};
+		BA2396FD4160BE5D53E205257F0D57E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41B2A63ED6CB6A2865B1193C8643EFEA /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF7EC5F5CECC3CA3738CC062E6BA5889 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				BA2396FD4160BE5D53E205257F0D57E2 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		DEDAA9AB184B93B5385E69800662EE66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B90EA9E190B00856484B38E765D8CC15 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9275FF5FCF897FFD48DBEAE512686BC /* Pods-CHOOSE @ SurveyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				878935605EEDA90C147F85E95F66E18B /* Pods-CHOOSE @ SurveyUITests-acknowledgements.markdown */,
+				0EDCBF944D5E031F728E8C65BD575D8F /* Pods-CHOOSE @ SurveyUITests-acknowledgements.plist */,
+				A00F8E8F6844000E11862B854361DAD3 /* Pods-CHOOSE @ SurveyUITests-dummy.m */,
+				FF0F339FD4DF0ED437E057E256A3E4AF /* Pods-CHOOSE @ SurveyUITests-frameworks.sh */,
+				7AACBAB75252A3163F9564A7BC7D25EE /* Pods-CHOOSE @ SurveyUITests-resources.sh */,
+				47B4CE72008815A32475E2038C7AE17D /* Pods-CHOOSE @ SurveyUITests.debug.xcconfig */,
+				EC3773E24F19604B5FC1A739234D4472 /* Pods-CHOOSE @ SurveyUITests.release.xcconfig */,
+			);
+			name = "Pods-CHOOSE @ SurveyUITests";
+			path = "Target Support Files/Pods-CHOOSE @ SurveyUITests";
+			sourceTree = "<group>";
+		};
+		E95E3B136B105B9F1DA4E4AD934092CD /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				B8D4E11B6C5388371CE3CCC8CCB69D40 /* CloudMessaging */,
+				8F49DF256F8DA299369A124252F3F460 /* Core */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		FAB2DEA807EC9D8CE89F4AF12963E753 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1268C2523D5F0265667124BB48C45125 /* libGcmLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEEBDF227DF18BEB08A7B0FE3F30DEA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F28B6517EB0CB51A5FD5F63153E09FB /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36025A445F21D8A828C7A49CB61F51F5 /* Pods-CHOOSE @ Survey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5FFF72D7188F5B3BE08156BF79C5E1 /* Build configuration list for PBXNativeTarget "Pods-CHOOSE @ Survey" */;
+			buildPhases = (
+				574FDE52F3899541A55B3149CB4B82EB /* Sources */,
+				C55AC91E832E49BD7EBF6794823615E9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CHOOSE @ Survey";
+			productName = "Pods-CHOOSE @ Survey";
+			productReference = 8F462552D50BD12774BDEBDB94B0B201 /* libPods-CHOOSE @ Survey.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5A7C7F2369B84D65A9F8B47A5F05A7AD /* Pods-CHOOSESurveyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3940D16A9C2153DC649D3185DD6741 /* Build configuration list for PBXNativeTarget "Pods-CHOOSESurveyApp" */;
+			buildPhases = (
+				BFD9834C949A196C341BA00231C6D5AD /* Sources */,
+				40EF2C421A70CEBACC302018816646D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CHOOSESurveyApp";
+			productName = "Pods-CHOOSESurveyApp";
+			productReference = DB22E0A405785453559766B2E98C295C /* libPods-CHOOSESurveyApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6B4A1A13FCD4FF5D9C21FE32198A2E2D /* Pods-CHOOSE @ SurveyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A8DB3555190E19B0AB1DB434354B4D /* Build configuration list for PBXNativeTarget "Pods-CHOOSE @ SurveyUITests" */;
+			buildPhases = (
+				6FBDD158E45ADE7C999E1F60FE8184D2 /* Sources */,
+				EE4750830B295D942D4B33D94CFE781D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CHOOSE @ SurveyUITests";
+			productName = "Pods-CHOOSE @ SurveyUITests";
+			productReference = BF3B1AADC63D03DE761A7BD9F2A4096F /* libPods-CHOOSE @ SurveyUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D9081BEC34D5A932C319475A978CED2D /* Pods-CHOOSE @ SurveyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772B606838D8FE7AC4740F8083E65A6D /* Build configuration list for PBXNativeTarget "Pods-CHOOSE @ SurveyTests" */;
+			buildPhases = (
+				7AC502AE86C37C535134F4C84643C8A0 /* Sources */,
+				C890B3560112269F73BB014EA41ABB8D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CHOOSE @ SurveyTests";
+			productName = "Pods-CHOOSE @ SurveyTests";
+			productReference = 7154A8FB8D5572DE2AAA19C4C824AB27 /* libPods-CHOOSE @ SurveyTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E8B3B49664104540C0522EF0EB849524 /* Pods-CHOOSESurveyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8B9DEEC45BA3F72116F994CE8CD2625 /* Build configuration list for PBXNativeTarget "Pods-CHOOSESurveyAppTests" */;
+			buildPhases = (
+				E9AE3C3D1B7BB0C9C76269769723090F /* Sources */,
+				6DE1AC3F5CC9A086D57C817AE3FAF637 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CHOOSESurveyAppTests";
+			productName = "Pods-CHOOSESurveyAppTests";
+			productReference = D63BC07FB7271566E63DE0BF04553901 /* libPods-CHOOSESurveyAppTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 612288B22544D77F8862D5076EC6F277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36025A445F21D8A828C7A49CB61F51F5 /* Pods-CHOOSE @ Survey */,
+				D9081BEC34D5A932C319475A978CED2D /* Pods-CHOOSE @ SurveyTests */,
+				6B4A1A13FCD4FF5D9C21FE32198A2E2D /* Pods-CHOOSE @ SurveyUITests */,
+				5A7C7F2369B84D65A9F8B47A5F05A7AD /* Pods-CHOOSESurveyApp */,
+				E8B3B49664104540C0522EF0EB849524 /* Pods-CHOOSESurveyAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		574FDE52F3899541A55B3149CB4B82EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682043AB41D696792BB2C030F730A5EC /* Pods-CHOOSE @ Survey-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FBDD158E45ADE7C999E1F60FE8184D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8F6F7C31760D231B1542084DF2976F /* Pods-CHOOSE @ SurveyUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AC502AE86C37C535134F4C84643C8A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BC517177B39DCB2FA164A92DBA28BA /* Pods-CHOOSE @ SurveyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD9834C949A196C341BA00231C6D5AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F30B51886D01D8649E9C86FC39B6C20 /* Pods-CHOOSESurveyApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AE3C3D1B7BB0C9C76269769723090F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D71BBEC76283F108AC3FF807483503 /* Pods-CHOOSESurveyAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		030FEAF5A231859ED18116CC536647E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC3773E24F19604B5FC1A739234D4472 /* Pods-CHOOSE @ SurveyUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0B1ACD888D7B822B99456B414D11D8A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E5F486F52E5FE9CDD7D0EF07006E7D /* Pods-CHOOSE @ Survey.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		14C2FF84F600C576480AD30F56997A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B4CE72008815A32475E2038C7AE17D /* Pods-CHOOSE @ SurveyUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		190CEBB008F3E34823572B1D91F988B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63989221642A06B1E7CA3BFE3CD3FC5B /* Pods-CHOOSE @ Survey.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1EEA5E66C4593CE18E165F870335ABEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D37CCEE8F9C4B13BFAC3A1C4A647A6CA /* Pods-CHOOSE @ SurveyTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3FBD3F7C3FEA59EFFD5025043524A729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7DED2369F720811D2651EA1154E2EE /* Pods-CHOOSESurveyAppTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		43095C806AF8F7DD85DA938A532AA707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B69D5539B1F2725E8341345EEFEA80D /* Pods-CHOOSESurveyApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B545D9DA368173792EA8F8D0CCFFD807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B978BF14A0643ABDF1F93EE546892F4 /* Pods-CHOOSESurveyApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DEDBB10047DEAB8A5446D03985E199FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A36071922C040C267985E5745E86CB1 /* Pods-CHOOSE @ SurveyTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E4569BFC8499A087B8D0A7C26B5332CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FE78492D93A8FA9C37FC93A510677A /* Pods-CHOOSESurveyAppTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A8DB3555190E19B0AB1DB434354B4D /* Build configuration list for PBXNativeTarget "Pods-CHOOSE @ SurveyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C2FF84F600C576480AD30F56997A5C /* Debug */,
+				030FEAF5A231859ED18116CC536647E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5FFF72D7188F5B3BE08156BF79C5E1 /* Build configuration list for PBXNativeTarget "Pods-CHOOSE @ Survey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190CEBB008F3E34823572B1D91F988B1 /* Debug */,
+				0B1ACD888D7B822B99456B414D11D8A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772B606838D8FE7AC4740F8083E65A6D /* Build configuration list for PBXNativeTarget "Pods-CHOOSE @ SurveyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EEA5E66C4593CE18E165F870335ABEA /* Debug */,
+				DEDBB10047DEAB8A5446D03985E199FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3940D16A9C2153DC649D3185DD6741 /* Build configuration list for PBXNativeTarget "Pods-CHOOSESurveyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B545D9DA368173792EA8F8D0CCFFD807 /* Debug */,
+				43095C806AF8F7DD85DA938A532AA707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8B9DEEC45BA3F72116F994CE8CD2625 /* Build configuration list for PBXNativeTarget "Pods-CHOOSESurveyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBD3F7C3FEA59EFFD5025043524A729 /* Debug */,
+				E4569BFC8499A087B8D0A7C26B5332CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
