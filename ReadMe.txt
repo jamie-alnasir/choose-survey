@@ -6,6 +6,19 @@ Economics (Anderberg, Dan ; Chevalier, Arnaud ; Luhrmann, Melanie ; Pavan, Ronni
 Royal Holloway University of London
 
 
+Choose Survey Project:
+
+The Choose-Survey project is presented at the project website:
+https://www.royalholloway.ac.uk/economics/choosesurvey/choosesurvey.aspx
+
+An abstract of the software system can be found on the Royal Holloway academic server:
+https://pure.royalholloway.ac.uk/portal/en/publications/choosesurvey(fe679290-fb48-436b-ab59-1de49b1caa8c).html
+
+Technical implementation of the project is discussed here:
+http://www.al-nasir.com/portfolio/choose-survey/
+
+
+
 Overview of Architecture:
 
 The architecture of the system for survey response tracking (SurveyMonkey, Wordpress
