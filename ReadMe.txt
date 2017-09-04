@@ -2,7 +2,8 @@
 Choose-survey respondent tracking system
 
 Architecture/Software developed by Jamie Alnasir, Project conceieved by the department of
-Economics, Royal Holloway University of London
+Economics (Anderberg, Dan ; Chevalier, Arnaud ; Luhrmann, Melanie ; Pavan, Ronni),
+Royal Holloway University of London
 
 
 Overview of Architecture:
@@ -30,7 +31,6 @@ reports of survey completion and sending of push notifications. The push-notific
 authentication details. Paths to server hosted files, MySQL databases and configuration
 is necessary, as is building/compiling of the Android/iOS client apps.
 
-
 Folder structure:
 
 [Server-side code]
@@ -42,4 +42,21 @@ Folder structure:
 [Client-side code]
 ./Android.client.app/*		Android GCM Push-notifications enabled Webview "Thin" Client
 ./iOS.client.app/*			iOS GCM/Firebase Push-notifications enabled Webview "Thin" Client
+
+
+MySQL Database Schema:
+
+The server-side code is built on Wordpress, and therefore requires a Wordpress MySQL instance as well
+as a separate MySQL instance for storing the survey respondent metadata (This can be be the same database
+as the Wordpress MySQL instance if desired).
+
+The Schema DDL/SQL script containing the necessary table, view, trigger definitions is in MySQL-Schema.sql.
+
+
+Additional notes:
+
+The metadata system currently only keeps track of the surveys in SurveyMonkey together with the respondents
+(students) that complete the surveys in order to only show new, un-completed surveys and to generate gamification
+points for voucher generation. The Syncronisation system, written in Python, can be used to also iterate the
+survey respondent data to capture and store this in the metadata if so required.
 
